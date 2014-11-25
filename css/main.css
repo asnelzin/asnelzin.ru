@@ -91,7 +91,7 @@ a {
 .icon {
     position: absolute;
     left: 10px;
-    top: 34px;
+    top: 37px;
 }
 
 .email .icon  {
@@ -104,7 +104,6 @@ a {
 }
 
 .phone .icon {
-    top: 32px;
     font-size: 25px;
 }
 
