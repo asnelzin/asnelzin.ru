@@ -36,7 +36,7 @@ body {
 }
 
 .list {
-    padding-top: 20px;
+    padding-top: 25px;
     position: relative;
 }
 
@@ -46,10 +46,11 @@ body {
 
 .piece {
     display: inline-block;
+    padding-left: 10px;
     margin-left: 50px;
     text-align: left;
     vertical-align: top;
-    width: 250px;
+    width: 280px;
     box-sizing: border-box;
 }
 
@@ -60,7 +61,7 @@ a {
 
 .link {
     display: inline-block;
-    padding: 10px 14px 8px 35px;
+    padding: 10px 14px 8px 40px;
     position: relative;
     border-radius: 3px;
 }
@@ -89,8 +90,8 @@ a {
 
 .icon {
     position: absolute;
-    left: 5px;
-    top: 32px;
+    left: 10px;
+    top: 34px;
 }
 
 .email .icon  {
@@ -98,10 +99,12 @@ a {
 }
 
 .location .icon {
+    left: 13px;
     font-size: 30px;
 }
 
 .phone .icon {
+    top: 32px;
     font-size: 25px;
 }
 
@@ -114,19 +117,63 @@ a {
 }
 
 .twitter .icon {
+    top: 12px;
     font-size: 25px;
 }
 
 .vk .icon {
-    font-size: 25px;
+    left: 7px;
+    top: 12px;
+    font-size: 24px;
 }
 
-@media (max-width: 886px) {
+@media all and (max-width: 970px) {
+    .piece {
+        margin-left: 10px;
+    }
+
     .piece:first-child {
         margin-left: 0;
     }
+}
+
+@media all and (max-width: 890px) {
+    .list {
+        display: inline-block;
+        vertical-align: top
+    }
+
+    .links {
+        margin-top: 25px;
+        margin-left: 20px
+    }
 
     .piece {
-        margin-left: 10px;
+        display: block;
+        margin: 0 auto
+    }
+
+    .piece, .piece:first-child {
+        margin: 0 auto
+    }
+}
+
+@media all and (max-width: 585px) {
+    .list {
+        display: block
+    }
+
+    .links {
+        margin-left: 0
+    }
+
+    .piece, .piece:first-child {
+        margin: 0 auto
+    }
+}
+
+@media all and (max-width: 585px) and (max-height: 715px) {
+    .links {
+        margin-top: 15px
     }
 }
