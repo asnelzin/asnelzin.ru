@@ -4,23 +4,27 @@
 }
 
 body {
+    text-align: center;
+
     color: black;
     background-color: #f8f8f8;
-    text-align: center;
-    font: 15px Alegreya, sans-serif;
     text-shadow: 1px 1px 0 #fff;
+
+    font: 15px Alegreya, sans-serif;
 }
 
 .persona {
+    position: relative;
+
     width: 220px;
     height: 220px;
     margin: 50px auto 60px;
-    position: relative;
 }
 
 .photo {
     width: 100%;
     height: 100%;
+
     border-radius: 50%;
     box-shadow: 1px 1px 0 #fff;
 }
@@ -30,14 +34,16 @@ body {
 }
 
 .name {
-    font-weight: 400;
-    font-size: 48px;
     padding-bottom: 20px;
+
+    font-size: 48px;
+    font-weight: 400;
 }
 
 .list {
-    padding-top: 25px;
     position: relative;
+
+    padding-top: 25px;
 }
 
 .piece:first-child {
@@ -46,44 +52,53 @@ body {
 
 .piece {
     display: inline-block;
-    padding-left: 20px;
+
+    box-sizing: border-box;
+    width: 280px;
     margin-left: 50px;
+    padding-left: 20px;
+
     text-align: left;
     vertical-align: top;
-    width: 280px;
-    box-sizing: border-box;
 }
 
 a {
-    color: #333;
     text-decoration: none;
+
+    color: #333;
 }
 
 .link {
-    display: inline-block;
-    padding: 10px 14px 8px 40px;
     position: relative;
-    border-radius: 3px;
+
+    display: inline-block;
+
+    padding: 10px 14px 8px 40px;
+
     -webkit-transition: background 200ms;
-    transition: background 200ms;
+            transition: background 200ms;
+
+    border-radius: 3px;
 }
 
 .link:hover {
-    background: rgba(0, 0, 0, .04)
+    background: rgba(0, 0, 0, .04);
 }
 
 .link:active {
     -webkit-transform: translateY(2px);
-    -ms-transform: translateY(2px);
-    transform: translateY(2px)
+        -ms-transform: translateY(2px);
+            transform: translateY(2px);
 }
 
-.label, .login {
+.label,
+.login {
     color: #666;
 }
 
 .value {
     padding-top: 3px;
+
     font-size: 24px;
 }
 
@@ -92,22 +107,24 @@ a {
 }
 
 .dash {
-    color: #bbb;
     padding: 0 4px;
+
+    color: #bbb;
 }
 
 .icon {
     position: absolute;
-    left: 10px;
     top: 37px;
+    left: 10px;
 }
 
-.email .icon  {
+.email .icon {
     font-size: 20px;
 }
 
 .location .icon {
     left: 13px;
+
     font-size: 30px;
 }
 
@@ -125,12 +142,14 @@ a {
 
 .twitter .icon {
     top: 12px;
+
     font-size: 25px;
 }
 
 .vk .icon {
-    left: 7px;
     top: 12px;
+    left: 7px;
+
     font-size: 24px;
 }
 
@@ -147,40 +166,44 @@ a {
 @media all and (max-width: 890px) {
     .list {
         display: inline-block;
-        vertical-align: top
+
+        vertical-align: top;
     }
 
     .links {
         margin-top: 25px;
-        margin-left: 20px
+        margin-left: 20px;
     }
 
     .piece {
         display: block;
-        margin: 0 auto
+
+        margin: 0 auto;
     }
 
-    .piece, .piece:first-child {
-        margin: 0 auto
+    .piece,
+    .piece:first-child {
+        margin: 0 auto;
     }
 }
 
 @media all and (max-width: 585px) {
     .list {
-        display: block
+        display: block;
     }
 
     .links {
-        margin-left: 0
+        margin-left: 0;
     }
 
-    .piece, .piece:first-child {
-        margin: 0 auto
+    .piece,
+    .piece:first-child {
+        margin: 0 auto;
     }
 }
 
 @media all and (max-width: 585px) and (max-height: 715px) {
     .links {
-        margin-top: 15px
+        margin-top: 15px;
     }
 }
