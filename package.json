@@ -1,0 +1,25 @@
+{
+  "name": "asnelzin.ru",
+  "version": "1.0.0",
+  "description": "[asnelzin.ru](http://asnelzin.ru)",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-imagemin": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asnelzin/asnelzin.ru.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asnelzin/asnelzin.ru/issues"
+  },
+  "homepage": "http://asnelzin.ru"
+}

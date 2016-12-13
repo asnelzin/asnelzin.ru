@@ -1,0 +1,83 @@
+.b-persona {
+    position: relative;
+
+    width: 220px;
+    height: 220px;
+    margin: 50px auto 20px;
+}
+
+.b-persona .b-persona__photo {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+    box-shadow: 1px 1px 0 #fff;
+}
+
+.b-persona__name {
+    font-size: 48px;
+    font-weight: 400;
+
+    padding-bottom: 0;
+}
+
+.b-persona__description {
+    font-size: 18px;
+    font-weight: 400;
+
+    margin: 0;
+}
+
+.b-info-block__title {
+    font-weight: 400;
+
+    margin: 0;
+    padding-top: 30px;
+
+    letter-spacing: .05cm;
+
+    color: #666;
+}
+
+.b-info-block__value {
+    font-size: 16px;
+
+    margin: 0;
+}
+
+.b-info-block__list {
+    position: relative;
+
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+}
+
+.b-info-block__el:first-child {
+    margin-left: 0;
+}
+
+.b-info-block__el {
+    font-size: 16px;
+
+    display: inline;
+
+    margin-left: 7px;
+}
+
+.link {
+    position: relative;
+
+    -webkit-transition: color 200ms ease-in-out;
+            transition: color 200ms ease-in-out;
+    text-decoration: none;
+
+    color: #337ab7;
+}
+
+.link:hover {
+    text-decoration: none;
+
+    color: #003897;
+}
